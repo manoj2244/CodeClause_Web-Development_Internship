@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    display: block !important;
+}
+form{
+    display: grid;
+    width:30%;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label{
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+input{
+    width: 100%;
+    padding: 9px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(27, 25, 25);
+}
+button{
+    
+    padding: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 12px !important;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    background: crimson;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+button:hover{
+    background-color: rgb(158, 49, 70);
+}
+img{
+    position: absolute;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+#captcha{
+    width: 71.5%;
+}
+textarea{
+   
+    outline: none;
+    border-radius: 5px;
+    padding:9px;
+    font-size: 15px;
+}
+#refresh{
+    height: 27px;
+    width: 27px;
+    right: 410px;
+    top: 78%;
+    cursor: pointer;
+}
